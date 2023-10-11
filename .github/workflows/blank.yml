@@ -1,0 +1,11 @@
+name: Test-On_First
+on:
+  workflow_dispatch:
+jobs:
+  explore:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run a something
+        run: |
+            echo "First output"
+            echo "Second output"
